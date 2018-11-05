@@ -4,14 +4,8 @@ setwd("D:\\Google儲存空間\\華致資訊\\資料分析\\廢氣爐分析\\Rapi")
 library(httr)
 
 dt = read.csv("./data.csv")
-names(dt)[1] = "Entity"
 
-y <- as.POSIXlt("2018-11-01 15:00:00")
 url <- paste("http://ifabtw.eastasia.cloudapp.azure.com/Thingworx/Things/ExhaustGasFurnaceThing/Services/PushDataFromPost")
-
-defdate = difftime(Sys.time() , y,units = "mins")
-defdate = round(defdate)
-
 
 i = 758
 repeat{
