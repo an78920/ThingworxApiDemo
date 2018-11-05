@@ -1,6 +1,8 @@
 setwd("D:\\Google儲存空間\\華致資訊\\資料分析\\廢氣爐分析\\Rapi")
 
 ## 我偷偷修改了哦!!
+## 我又偷偷修改了哦!!
+
 
 #install.packages('httr')
 library(httr)
