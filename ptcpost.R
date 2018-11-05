@@ -1,4 +1,6 @@
-setwd("D:\\GoogleÀx¦sªÅ¶¡\\µØ­P¸ê°T\\¸ê®Æ¤ÀªR\\¼o®ğÄl¤ÀªR\\Rapi")
+setwd("D:\\Googleå„²å­˜ç©ºé–“\\è¯è‡´è³‡è¨Š\\è³‡æ–™åˆ†æ\\å»¢æ°£çˆåˆ†æ\\Rapi")
+
+## æˆ‘å·å·ä¿®æ”¹äº†å“¦!!
 
 #install.packages('httr')
 library(httr)
